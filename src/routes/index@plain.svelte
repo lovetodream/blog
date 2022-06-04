@@ -2,6 +2,10 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 </script>
 
+<svelte:head>
+	<title>Swift by Timo</title>
+</svelte:head>
+
 <header id="header" class="bg-orange-400 tracking-wider h-96 flex flex-col">
 	<div id="hero" class="text-white font-bold text-xl flex-1 flex justify-center items-center">
 		<div class="flex flex-col justify-center items-center space-y-4">

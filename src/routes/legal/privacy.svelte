@@ -1,3 +1,9 @@
+<script>
+	import Head from '$lib/components/Head.svelte';
+</script>
+
+<Head title="Privacy Policy" />
+
 <div class="relative py-16 overflow-hidden">
 	<div class="relative px-4 sm:px-6 lg:px-8">
 		<div class="text-lg max-w-prose mx-auto">
