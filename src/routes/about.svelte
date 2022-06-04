@@ -19,7 +19,7 @@
 		<div class="mt-6 ns-prose mx-auto">
 			<p>
 				I hope that you'll find the stuff that I write valuable, and please don't hestitate to
-				contact me if you have any questions or feedback about what I do here.
+				<a href="/contact">contact me</a> if you have any questions or feedback about what I do here.
 			</p>
 			<p>Thanks for reading!</p>
 			<h2>Acknowledgements</h2>
