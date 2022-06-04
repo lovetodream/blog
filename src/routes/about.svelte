@@ -42,6 +42,7 @@
 				<li><a href="https://kit.svelte.dev">Sveltekit</a></li>
 				<li><a href="https://tailwindcss.com">TailwindCSS</a></li>
 				<li><a href="https://strapi.io">Strapi CMS</a></li>
+				<li><a href="https://ghost.org">Ghost CMS</a></li>
 			</ul>
 		</div>
 	</div>
