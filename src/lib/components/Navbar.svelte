@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { page } from '$app/stores';
+
 	export let showHome = true;
 </script>
 
@@ -10,14 +12,14 @@
 		<ul class="flex justify-center items-center space-x-8">
 			{#if showHome}
 				<li>
-					<a href="/" class="text-white hover:text-gray-200 transition-colors">Home</a>
+					<a href="/">Home</a>
 				</li>
 			{/if}
 			<li>
-				<a href="/about" class="text-white hover:text-gray-200 transition-colors">About</a>
+				<a href="/about" class:active={$page.url.pathname === '/about'}>About</a>
 			</li>
 			<li>
-				<a href="/contact" class="text-white hover:text-gray-200 transition-colors">Contact</a>
+				<a href="/contact" class:active={$page.url.pathname === '/contact'}>Contact</a>
 			</li>
 		</ul>
 		<button
@@ -28,3 +30,13 @@
 		</button>
 	</div>
 </nav>
+
+<style>
+	a {
+		@apply text-white hover:text-gray-200 hover:bg-gray-700 px-4 py-2 rounded-xl transition-colors;
+	}
+
+	a.active {
+		@apply bg-gray-700 text-gray-200;
+	}
+</style>
