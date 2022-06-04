@@ -9,10 +9,13 @@
 				>. All rights reserved.
 			</p>
 			<div class="flex">
-				<a href="/privacy" class="px-2 border-r border-r-gray-500 text-gray-300 hover:underline">
+				<a
+					href="/legal/privacy"
+					class="px-2 border-r border-r-gray-500 text-gray-300 hover:underline"
+				>
 					Privacy Policy
 				</a>
-				<a href="/imprint" class="pl-2 text-gray-300 hover:underline"> Imprint </a>
+				<a href="/legal/imprint" class="pl-2 text-gray-300 hover:underline"> Imprint </a>
 			</div>
 		</div>
 		<p class="text-xs text-gray-500">

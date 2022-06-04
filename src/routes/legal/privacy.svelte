@@ -14,7 +14,7 @@
 				Im Folgenden möchten wir Sie aufklären, wie Ihre Daten von uns verarbeitet werden.
 			</p>
 		</div>
-		<div class="mt-6 prose prose-invert prose-blue prose-lg text-gray-400 mx-auto">
+		<div class="mt-6 ns-prose mx-auto">
 			<h4>Verantwortlich im Sinne der DSGVO ist:</h4>
 			<p>
 				Timo Zacherl<br />

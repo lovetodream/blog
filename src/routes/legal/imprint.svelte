@@ -12,7 +12,7 @@
 				</p>
 			</h1>
 		</div>
-		<div class="mt-6 prose prose-invert prose-blue prose-lg text-gray-400 mx-auto">
+		<div class="mt-6 ns-prose mx-auto">
 			<h4>Angaben gemäß § 5 TMG</h4>
 			<p>
 				Swift by Timo<br />
