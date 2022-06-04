@@ -1,5 +1,5 @@
 <footer class="text-gray-400 bg-black bg-opacity-75">
-	<div class="container mx-auto max-w-3xl px-4 py-8">
+	<div class="container mx-auto max-w-3xl px-4 py-8 space-y-4">
 		<div
 			class="border-t border-t-gray-500 pt-2 flex justify-between text-sm leading-none font-extralight"
 		>
@@ -15,5 +15,11 @@
 				<a href="/imprint" class="pl-2 text-gray-300 hover:underline"> Imprint </a>
 			</div>
 		</div>
+		<p class="text-xs text-gray-500">
+			Apple, the Apple logo, macOS, Mac, iPhone, and iPad are trademarks of Apple Inc., registered
+			in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. IOS is
+			a trademark or registered trademark of Cisco in the U.S. and other countries and is used under
+			license.
+		</p>
 	</div>
 </footer>
