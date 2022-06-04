@@ -1,5 +1,5 @@
-<footer class="text-gray-400">
-	<div class="container mx-auto py-8">
+<footer class="text-gray-400 bg-black bg-opacity-75">
+	<div class="container mx-auto max-w-3xl px-4 py-8">
 		<div
 			class="border-t border-t-gray-500 pt-2 flex justify-between text-sm leading-none font-extralight"
 		>

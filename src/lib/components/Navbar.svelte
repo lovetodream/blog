@@ -6,7 +6,7 @@
 	id="navbar"
 	class="sticky top-0 border-b border-b-gray-700 backdrop-blur bg-gray-800 bg-opacity-60"
 >
-	<div class="container mx-auto flex justify-between py-4">
+	<div class="container mx-auto max-w-3xl flex justify-between p-4">
 		<ul class="flex justify-center items-center space-x-8">
 			{#if showHome}
 				<li>
