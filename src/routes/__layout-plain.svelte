@@ -4,5 +4,9 @@
 	import '../app.css';
 </script>
 
-<slot />
-<Footer />
+<div class="bg-stone-900 min-h-screen flex flex-col justify-between">
+	<div>
+		<slot />
+	</div>
+	<Footer />
+</div>
