@@ -17,7 +17,9 @@
 >
 	<article class:featured>
 		<div class="col-span-2 overflow-hidden">
-			<div class="group-hover:scale-[1.03] transition-transform duration-300 thumbnail-container">
+			<div
+				class="group-hover:scale-[1.03] transition-transform duration-300 thumbnail-container relative"
+			>
 				<img src={post.feature_image} alt={post.feature_image_alt} class="max-h-96" />
 			</div>
 		</div>
