@@ -9,7 +9,7 @@
 		<div class="text-lg max-w-prose mx-auto">
 			<h1>
 				<span
-					class="block text-base text-center text-blue-500 font-semibold tracking-wide uppercase"
+					class="block text-base text-center text-orange-500 font-semibold tracking-wide uppercase"
 					>Privacy Policy / Datenschutzerklärung</span
 				>
 			</h1>

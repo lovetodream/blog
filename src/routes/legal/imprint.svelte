@@ -9,7 +9,7 @@
 		<div class="text-lg max-w-prose mx-auto">
 			<h1>
 				<span
-					class="block text-base text-center text-blue-500 font-semibold tracking-wide uppercase"
+					class="block text-base text-center text-orange-500 font-semibold tracking-wide uppercase"
 					>Imprint / Impressum</span
 				>
 				<p class="mt-8 text-xl text-gray-400 leading-8">
