@@ -23,7 +23,11 @@
 <div class="relative py-16 overflow-hidden">
 	<div class="relative px-4 sm:px-6 lg:px-8">
 		<div class="text-lg max-w-prose mx-auto text-white">
-			<h2 class="text-gray-400">{post?.primary_tag?.name}</h2>
+			<h2 class="text-gray-400">
+				<a href="/tags/{post?.primary_tag?.slug}" class="hover:underline"
+					>{post?.primary_tag?.name}</a
+				>
+			</h2>
 			<h1 class="text-4xl font-bold tracking-wide">{post?.title}</h1>
 		</div>
 		<div class="mt-6 ns-prose mx-auto">
