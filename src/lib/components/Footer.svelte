@@ -1,12 +1,14 @@
 <script lang="ts">
-	import { api } from '$lib/api';
+	import { variables } from '$lib/variables';
 	import type { Tags } from '@tryghost/content-api';
 
 	let tags: Tags | undefined;
 
-	api.tags.browse().then((apiTags) => {
-		tags = apiTags;
-	});
+	fetch(`${variables.baseUrl}/api/tags`)
+		.then((res) => res.json())
+		.then((data) => {
+			tags = data;
+		});
 </script>
 
 <footer class="text-gray-400 bg-black bg-opacity-75">

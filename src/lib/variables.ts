@@ -3,4 +3,5 @@ export const variables = {
     ghostKey: import.meta.env.VITE_GHOST_KEY as string,
     serviceUrl: import.meta.env.VITE_SERVICE_URL as string,
     serviceKey: import.meta.env.VITE_SERVICE_KEY as string,
+    baseUrl: import.meta.env.VITE_BASE_URL as string,
 }
