@@ -7,11 +7,11 @@ export const post: RequestHandler = async ({ request }: RequestEvent) => {
     const redirect = formData.get('redirect');
     
     try {
-        const response = await fetch(`${variables.serviceUrl}/subscribe`, {
+        const response = await fetch(`${variables.serviceUrl()}/subscribe`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'x-service-authorization': variables.serviceKey,
+                'x-service-authorization': variables.serviceKey(),
             },
             body: JSON.stringify({
                 email,

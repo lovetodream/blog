@@ -3,6 +3,8 @@ FROM node:16-alpine
 
 WORKDIR /app
 
+ENV VITE_BASE_URL=https://swiftbytimo.com
+
 # copy everything to the container
 COPY . .
 
