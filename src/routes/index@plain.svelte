@@ -10,7 +10,7 @@
 	<title>Swift by Timo</title>
 </svelte:head>
 
-<header id="header" class="bg-orange-400 tracking-wider h-96 flex flex-col">
+<header id="header" class="bg-orange-400 tracking-wider h-48 md:h-96 flex flex-col">
 	<div id="hero" class="text-white font-bold text-xl flex-1 flex justify-center items-center">
 		<div class="flex flex-col justify-center items-center space-y-4">
 			<svg class="w-24 h-auto" viewBox="0 0 107 107" version="1.1" fill-rule="evenodd">

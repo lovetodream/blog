@@ -16,7 +16,7 @@
 	class="{classes} bg-black text-white rounded-xl group hover:scale-[1.007] transition duration-300 overflow-hidden post-anchor shadow hover:shadow-xl"
 >
 	<article class:featured>
-		<div class="col-span-2 overflow-hidden">
+		<div class="md:col-span-2 overflow-hidden">
 			<div
 				class="group-hover:scale-[1.03] transition-transform duration-300 thumbnail-container relative"
 			>
@@ -78,7 +78,7 @@
 	}
 
 	.featured {
-		@apply grid grid-cols-3;
+		@apply grid md:grid-cols-3;
 	}
 
 	.featured .author {

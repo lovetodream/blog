@@ -10,14 +10,14 @@
 		<h2 class="text-white font-semibold text-2xl tracking-wide mb-4">
 			<slot name="title">Latest Posts</slot>
 		</h2>
-		<div class="grid grid-cols-6 gap-8">
+		<div class="grid grid-cols-1 md:grid-cols-6 gap-8">
 			{#each posts as post, i}
 				{#if i === 0}
-					<ArticleCard {post} featured classes="col-span-6" />
+					<ArticleCard {post} featured classes="md:col-span-6" />
 				{:else if i < 3}
-					<ArticleCard {post} classes="col-span-3" />
+					<ArticleCard {post} classes="md:col-span-3" />
 				{:else}
-					<ArticleCard {post} classes="col-span-2" />
+					<ArticleCard {post} classes="md:col-span-3 lg:col-span-2" />
 				{/if}
 			{/each}
 		</div>

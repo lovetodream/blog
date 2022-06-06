@@ -16,7 +16,7 @@
 		{#if tags}
 			<div class="flex flex-col space-y-2">
 				<h3 class="text-gray-300 text-base font-light">Tags</h3>
-				<ul class="text-sm grid grid-cols-4 gap-y-1 gap-x-4">
+				<ul class="text-sm grid grid-cols-2 md:grid-cols-4 gap-y-1 gap-x-4">
 					{#each tags as tag}
 						<li class="flex items-center space-x-4">
 							<a href={`/tags/${tag.slug}`} class="text-gray-400 hover:underline font-light">
@@ -28,17 +28,17 @@
 			</div>
 		{/if}
 		<div
-			class="border-t border-t-gray-500 pt-2 flex justify-between text-sm leading-none font-extralight"
+			class="border-t border-t-gray-500 pt-2 flex flex-col md:flex-row justify-between text-sm leading-none font-extralight"
 		>
 			<p>
 				Copyright © 2022 <a href="https://timozacherl.com" class="text-gray-300 hover:underline"
 					>Timo Zacherl</a
 				>. All rights reserved.
 			</p>
-			<div class="flex">
+			<div class="flex mt-4 md:mt-0">
 				<a
 					href="/legal/privacy"
-					class="px-2 border-r border-r-gray-500 text-gray-300 hover:underline"
+					class="md:pl-2 pr-2 border-r border-r-gray-500 text-gray-300 hover:underline"
 				>
 					Privacy Policy
 				</a>
