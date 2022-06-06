@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  blog:
+    image: lovetodream/blog:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_GHOST_URL=https://cms-swiftbytimo.nxtaws.com
+      - VITE_GHOST_KEY=f3ffa729447ca681b2ddeb83ac
+      - VITE_GHOST_ADMIN_KEY=629ba8cf6440ae0001667a50:6bad0fd863ea0e551031a9d9a48411d39a0cf51db1431b78366c1a3e524f385f
+      - VITE_SERVICE_URL=https://service-swiftbytimo.nxtaws.com
+      - VITE_SERVICE_KEY=E7830660-F0EF-4AFC-AAC6-9700B4D458D9
+      - VITE_BASE_URL=http://localhost:3000
