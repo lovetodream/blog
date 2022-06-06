@@ -9,7 +9,7 @@
 		<div class="text-lg max-w-prose mx-auto">
 			<h1>
 				<span
-					class="block text-base text-center text-blue-500 font-semibold tracking-wide uppercase"
+					class="block text-base text-center text-orange-500 font-semibold tracking-wide uppercase"
 					>About Swift by Timo</span
 				>
 				<p class="mt-8 text-xl text-gray-400 leading-8">
@@ -36,7 +36,11 @@
 				and the awesome work he does.<br /> Thanks John!
 			</p>
 			<h3>Open Source</h3>
-			<p>The blog is Open Source and you can find its source code on GitHub.</p>
+			<p>
+				The blog is Open Source and you can find its source code on <a
+					href="https://github.com/lovetodream/blog">GitHub</a
+				>.
+			</p>
 			<p>These frameworks where used to build the site:</p>
 			<ul>
 				<li><a href="https://kit.svelte.dev">Sveltekit</a></li>
