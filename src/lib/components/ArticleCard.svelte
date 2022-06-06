@@ -73,7 +73,7 @@
 		@apply overflow-hidden;
 	}
 
-	.featured.post-title {
+	.featured .post-title {
 		-webkit-line-clamp: 5;
 	}
 
