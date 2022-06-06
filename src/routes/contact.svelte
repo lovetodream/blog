@@ -21,7 +21,7 @@
 		<div class="mt-6 ns-prose mx-auto">
 			<p>
 				You can contact me either by mail (<a href="mailto:timo@swiftbytimo.com"
-					>timo@swiftbtimo.com</a
+					>timo@swiftbytimo.com</a
 				>) or via Twitter (<a href="https://twitter.com/@swiftbytimo">@swiftbytimo</a>). Please be
 				aware that I might be slow to respond if you contact me through Twitter.
 			</p>
