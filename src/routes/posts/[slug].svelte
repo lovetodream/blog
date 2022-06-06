@@ -3,8 +3,8 @@
 
 	import type { PostOrPage } from '@tryghost/content-api';
 	import { highlightAll } from 'prismjs';
-	import 'prismjs/components/prism-swift';
-	import 'prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard';
+	import 'prismjs/components/prism-swift.js';
+	import 'prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js';
 	import { onMount } from 'svelte';
 
 	export let post: PostOrPage;
