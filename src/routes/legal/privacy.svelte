@@ -14,7 +14,7 @@
 				>
 			</h1>
 			<p class="mt-8 text-gray-400 leading-6 text-sm">
-				The following privacy policy is provided in German and was last updated on June 4, 2020.
+				The following privacy policy is provided in German and was last updated on June 4, 2022.
 			</p>
 			<p class="mt-4 text-xl text-gray-400 leading-8">
 				Im Folgenden möchten wir Sie aufklären, wie Ihre Daten von uns verarbeitet werden.
