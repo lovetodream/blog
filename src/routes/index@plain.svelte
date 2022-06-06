@@ -1,5 +1,9 @@
-<script>
+<script lang="ts">
+	import type { PostsOrPages } from '@tryghost/content-api';
 	import Navbar from '$lib/components/Navbar.svelte';
+	import Feed from '$lib/components/Feed.svelte';
+
+	export let posts: PostsOrPages;
 </script>
 
 <svelte:head>
@@ -23,3 +27,9 @@
 	</div>
 </header>
 <Navbar showHome={false} />
+
+<main class="py-12">
+	<section>
+		<Feed {posts} />
+	</section>
+</main>
